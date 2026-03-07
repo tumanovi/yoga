@@ -1,0 +1,305 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang="ru">
+
+<head>
+	<title>Туманов Иван, Аштанга, Хатка йога</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="assets/css/main.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css">
+	</noscript>
+</head>
+
+<body class="landing is-preload">
+
+	<!-- Page Wrapper -->
+	<div class="page-wrapper">
+
+		<!-- Header -->
+		<header class="header">
+			<div class="header__logo">
+				<a href="index.html"><img class="logo" src="images/logo_white.png" alt="Лого Туманов Иван"></a>
+			</div>
+			<nav class="header__nav">
+				<ul class="nav__list">
+					<li class="nav__item nav__item--special">
+						<a href="#menu" class="nav__toggle"><span class="nav__toggle-text">Menu</span></a>
+						<div class="nav__menu" id="menu">
+							<ul class="nav__menu-list">
+								<li class="nav__menu-item"><a href="index.html">Home</a></li>
+								<li class="nav__menu-item"><a href="rasp2.html">Расписание</a></li>
+								<li class="nav__menu-item"><a href="indiv.html">Индивидуально</a></li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+
+		<!-- Banner -->
+		<section class="banner">
+			<div class="banner__inner">
+				<h2 class="banner__title">Туманов Иван</h2>
+				<p class="banner__text">Преподаватель по Йоге из Санкт-Петербурга<br>
+				</p>
+				<img class="banner__inner--img" src="/images/logo2.png" alt="">
+			</div>
+			<a href="#one" class="banner__more scrolly"></a>
+			<ul class="banner__tags">
+				<li class="banner__tag-item">
+					<div class="banner__tag">#ashtanga</div>
+				</li>
+				<li class="banner__tag-item">
+					<div class="banner__tag">#hatha</div>
+				</li>
+			</ul>
+		</section>
+
+		<!-- One -->
+		<section class="section section--primary">
+
+			<div class="section__header-inner">
+				<h2>8 лет в деле</h2>
+				<p class="section__highlight">Детальный подход, плавный прогресс без суеты</p>
+
+				<script>
+					document.addEventListener('DOMContentLoaded', function () {
+						const gapElement = document.querySelector('.section__highlight');
+
+						// Создаем наблюдатель
+						const observer = new IntersectionObserver((entries) => {
+							entries.forEach(entry => {
+								if (entry.isIntersecting) {
+									entry.target.classList.add('animated');
+									// observer.unobserve(entry.target); // Раскомментируйте для однократного срабатывания
+								}
+							});
+						}, {
+							threshold: 0.1 // Срабатывает при 10% видимости элемента
+						});
+
+						// Начинаем наблюдение
+						if (gapElement) {
+							observer.observe(gapElement);
+						} else {
+							console.error('Элемент .section__highlight не найден');
+						}
+					});
+				</script>
+			</div>
+
+
+		</section>
+
+		<!-- Two -->
+		<section class="spotlight__index">
+			<div class="spotlight__image"><a href="https://youtu.be/FBOpAZGg898?si=c2KsIO_jvfIlZmz0"><img src="images/pic04.jpg" alt=""></a></div>
+			<div class="spotlight__content">
+				<h3 class="spotlight__title">Бесплатные видео урок на Youtube</h3>
+				<p class="spotlight__text">Этот урок был записан совместно с командой Hot yoga 36 в период Коронавируса,
+					чтобы люди могли
+					продолжать заниматься йогой, пока все студии закрыты.</p>
+				<ul class="spotlight__actions">
+					<li class="spotlight__action-item">
+						<a href="https://youtu.be/FBOpAZGg898?si=c2KsIO_jvfIlZmz0">
+							Бесплатный видео-урок
+						</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		
+			<section class="spotlight__index right">
+				<div class="spotlight__image"><a href="rasp2.html"><img src="images/pic01.jpg" alt="" ></a></div>
+				<div class="spotlight__content">
+					<h3 class="spotlight__title">Групповые занятия</h3>
+					<p class="spotlight__text">Я веду занятия в нескольких студиях Петербурга. Структура урока имеет
+						разные уровни сложности,
+						уроки подходят для любого уровня подготовки — приходите, даже если никогда не практиковали. Если
+						у вас есть ограничения по здоровью, предупредите меня перед занятием.<br>
+					</p>
+					<ul class="spotlight__actions spotlight__actions--secondary">
+						<li class="spotlight__action-item">
+							<a href="rasp2.html">
+								Расписание
+							</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<section class="spotlight__index">
+				<div class="spotlight__image"><a href="indiv.html"><img src="images/pic02.jpg" alt="" ></a></div>
+				<div class="spotlight__content">
+					<h3 class="spotlight__title">Индивидуально</h3>
+					<p class="spotlight__text">Йога особенно выигрывает от такого формата - ведь важно не просто
+						скопировать позу, а осознать,
+						как она работает именно в вашем теле. Дыхание, уровень напряжения, особенности движений, ваше
+						поведение - всё это уникально. <br>
+					</p>
+					<ul class="spotlight__actions spotlight__actions--tertiary">
+						<li class="spotlight__action-item">
+							<a href="indiv.html">
+								Индивидуально
+							</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+		<!-- Three -->
+		<section class="section section--features" id="three">
+			<div class="section__inner">
+				<header class="section__header">
+					<h2 class="section__title">Bio</h2>
+					<p class="section__subtitle">
+						Моя история: обучение и опыт
+					</p>
+				</header>
+				<div class="section__inner--body">
+					<ul class="features__list">
+						<li class="feature__item feature__item--icon">
+							<h3 class="feature__title">2019 Rammstein</h3>
+							<p class="feature__text">
+								Один из самых ярких моментов в моей карьере — проведение класса по Йоге для группы
+								Rammstein
+								в 2019 году перед их концертом в Санкт-Петербурге.
+							</p>
+						</li>
+						<li class="feature__item">
+							<div class="feature__image"><img src="images/ram.jpg"
+									alt="Иван Туманов проводит урок по Йоге для Rammstein"></div>
+						</li>
+						<li class="feature__item feature__item--icon">
+							<h3 class="feature__title">2017 Начало</h3>
+							<p class="feature__text">Мой путь преподавателя начался в 2017 году под руководством
+								Екатерины
+								Сокотовой (2L KPJAYI).
+								С тех пор я регулярно провожу занятия в ведущих студиях Санкт-Петербурга, работая как в
+								классических, так и в горячих залах с группами от 20 до 40 человек. </p>
+						</li>
+						<li class="feature__item">
+							<div class="feature__image"><img src="images/start.jpg"
+									alt="Иван Туманов проводит урок по Йоге для Rammstein"></div>
+						</li>
+						<li class="feature__item feature__item--icon">
+							<h3 class="feature__title">2019 TTC 200</h3>
+							<p class="feature__text"> в 2019 г. закончил международный курс для преподавателей в
+								Himalayan
+								Yoga Association,
+								Ришикеш, север Индии.</p>
+						</li>
+						<li class="feature__item">
+							<div class="feature__image"><img src="images/rishekesh.jpg"
+									alt="Иван Туманов проводит урок по Йоге для Rammstein">
+							</div>
+						</li>
+						<li class="feature__item feature__item--icon">
+							<h3 class="feature__title">Индия, Майсор</h3>
+							<p class="feature__text">Четыре раза посещал Институт Аштанга Йоги в Майсоре (Индия) для
+								углубленного обучения: в
+								2018, 2019, 2023 и 2025 годах.</p>
+						</li>
+						<li class="feature__item">
+							<div class="feature__image"><img src="images/saraswati.jpg"
+									alt="Иван Туманов проводит урок по Йоге для Rammstein">
+							</div>
+						</li>
+						<li class="feature__item feature__item--icon">
+							<h3 class="feature__title">2019 Севкабель</h3>
+							<p class="feature__text">В 2019 году провёл масштабный класс на 150 участников в
+								пространстве
+								«Севкабель Порт» в
+								рамках проекта Yogictrip.
+							</p>
+						</li>
+						<li class="feature__item">
+							<div class="feature__image"><img src="images/Sevkabel.jpg"
+									alt="Иван Туманов проводит урок по Йоге в Севкабель Порт">
+							</div>
+						</li>
+						<li class="feature__item feature__item--icon">
+							<h3 class="feature__title">2024 ИВМР</h3>
+							<p class="feature__text">В 2024 году успешно завершил обучение в Институте Восточных Методов
+								Реабилитации, получив
+								диплом государственного образца.
+							</p>
+						</li>
+						<li class="feature__item">
+							<div class="feature__image"><img src="images/IVMR.jpg" alt="Иван Туманов закончил ИВМР">
+							</div>
+						</li>
+						<li class="feature__item feature__item--icon">
+							<h3 class="feature__title">2024 Авито</h3>
+							<p class="feature__text">В 2024 году учавствовал в корпоривном мероприятии "День здоровья"
+								компании Авито в роли
+								ведущего по Саунд-хилингу.
+							</p>
+						</li>
+						<li class="feature__item">
+							<div class="feature__image"><img src="images/sound.jpg"
+									alt="Иван Туманов проводил саундхилинг в Авито"></div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+
+
+		<!-- Footer -->
+		<footer class="footer">
+			<div class="footer__links-1">
+				<ul class="footer__links">
+
+					<li class="footer__link-item"><a href="rasp2.html">Расписание</a></li>
+
+					<li class="footer__link-item"><a href="https://youtu.be/FBOpAZGg898?si=c2KsIO_jvfIlZmz0">Бесплатный
+							видео-урок</a></li>
+
+					<li class="footer__link-item"><a href="indiv.html">Индивидуально</a></li>
+
+				</ul>
+			</div>
+
+			<div class="footer__links-2">
+				<ul class="footer__social">
+					<li class="footer__social-item"><a href="https://t.me/tum_vi"><img src="images/tg.png"
+								alt="Telegram"></a></li>
+					<li class="footer__social-item"><a href="https://wa.me/79006339697"><img src="images/whup.png"
+								alt="WhatsUp"></a></li>
+					<li class="footer__social-item"><a
+							href="https://www.instagram.com/tumanov_yoga?igsh=MXRlZXkxeDBxc2llNw%3D%3D&utm_source=qr"><img
+								src="images/instagram.png" alt="instagram"></a></li>
+				</ul>
+			</div>
+			<div class="footer__links-3">
+				<ul class="footer__copyright">
+					<li class="footer__copyright-item">&copy; Туманов Иван</li>
+					<li class="footer__copyright-item">Design: Tumanov Ivan</li>
+				</ul>
+			</div>
+		</footer>
+
+	</div>
+
+	
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
