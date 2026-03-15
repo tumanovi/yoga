@@ -1817,6 +1817,8 @@ body.is-mobile.landing .page-wrapper3 {
 	width: 50%;
 }
 
+
+
 /**************************************************************************** страница расписание************************/
 
 /****************************************************************************
@@ -2456,6 +2458,9 @@ body.is-mobile.landing .page-wrapper3 {
 	.banner__inner {
 		width: 100%;
 		text-align: center;
+		position: absolute;
+		top: 140px;
+		
 		padding-bottom: 30em;
 	}
 	
