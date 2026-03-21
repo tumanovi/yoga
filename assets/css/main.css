@@ -2010,6 +2010,9 @@ body.is-mobile.landing .page-wrapper3 {
 
 	.banner__inner {
 		padding-top: 0em;
+		position: relative;
+		top: 100px;
+		margin: 0 auto;
 	}
 
 	.section__inner {
