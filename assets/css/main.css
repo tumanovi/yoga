@@ -1427,6 +1427,19 @@ body.is-menu-visible .nav__menu {
 	max-width: 100%;
 	box-sizing: border-box;
 }
+.banner__tag1 {
+	margin: 0 auto;
+	display: block;
+	width: 10em;
+	padding: 0.2em;
+	border-radius: 10px;
+	background: #333;
+	color: #f0f0f0;
+	text-align: center;
+	font-size: 0.8em;
+	max-width: 100%;
+	box-sizing: border-box;
+}
 
 /* Preload states */
 body.is-preload .banner__title {
